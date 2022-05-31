@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(#002855, #001845, #001233);
+}
+
+header{
+    position: fixed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: white;
+    font-family: 'Gupter', sans-serif;
+    width: 100%;
+    height: 15%;
+}
+
+a { color: white; 
+    text-decoration: none;
+} 
+
+.header-container{
+    padding: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    padding-left: 30px;
+    height: 50px;
+}
+
+.p-container{
+    position: relative;
+    display: flex;
+    gap: 95px;
+    font-size: 1.5rem;
+    padding-right: 70px;
+
+}
+
+.p-container a{
+    text-shadow: 2px 2px 2px #000;
+    transition: all .3s;
+}
+
+.p-container a:hover{
+    padding: 3px 3px;
+    box-sizing: border-box;
+    border-bottom: 3px solid #00CBBF;
+    border-radius: 5px;
+}
+
