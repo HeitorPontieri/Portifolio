@@ -1,0 +1,50 @@
+#sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.ab-me{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px
+
+}
+button{
+    width: 300px;
+    
+}
+h1{
+    color: white;
+    font-size: 3.1rem;
+    
+}
+.sb-text{
+    flex-wrap: wrap;
+    
+    width: 30vw;
+    
+}
+p{
+    color: white;
+}
+
+.img-sb{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.infos{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+
+    background-color: brown;
+}
