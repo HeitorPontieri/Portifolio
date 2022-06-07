@@ -1,6 +1,6 @@
 .content-contato {
     padding: 50px;
-    /* margin-bottom: 20px; */
+    
     transition: all 1s;
     width: 100vw;
     height: 30vh;
@@ -31,19 +31,6 @@
     justify-content: center;
 } 
 
-@media(max-width: 898px){
-    #contato{
-        padding-top: 15vh;
-    }
+#card01, #card02, #card03{
+    background-color: rgba(255, 255, 255, 0.527);
 }
-@media(max-width: 590px){
-    #contato{
-        padding-top: 50vh;
-    }
-}
-@media(max-width: 375px){
-    #contato{
-        padding-top: 90vh;
-    }
-}
-
