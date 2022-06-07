@@ -15,18 +15,18 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/skills.css">
     <link rel="stylesheet" href="./css/sobre.css">
+    <link rel="stylesheet" href="./css/contato.css">
     <script src="https://kit.fontawesome.com/36fb6fc507.js" crossorigin="anonymous"></script>
     <title>HeitorPontieri</title>
 </head>
 <body>
     <header>
         <nav class="pre">
-            <a href="#">
-                <img src="./img/heitor.png" alt="logo" class="logo">
-                    <a href="#" class="menu-burguer-container">
-                        <i class="menu-burguer"></i>
-                    </a>
-            </a>
+            <div class="logo">  
+              <p class="simb">&lt;/ </p>
+              <p>Heitor Pontieri</p>
+              <p class="simb">&gt;</p>
+            </div>
                 <div class="pnew">
                     <a href="#sobre">Sobre</a>  
                     <a href="#skills">Skills</a>
@@ -42,7 +42,9 @@
         <div class="sb-text">
             <p>Olá! Eu sou o Heitor, estudante e futuro programador, aqui no meu portifólio, você encontrará tudo o que já realizei no mundo da tecnologia! Atualmente cursando Desenvolvimento de Sistemas no SENAI Jandira, estou no primeiro dos 3 semestres de curso, mostrando o quão fascinante é a codificação. Baixe meu currículo e me conheça melhor! Está logo abaixo  </p>
         </div>
+          <a href="./Heitor Pontieri de Oliveira - Currículo.pdf" download="Currículo-HeitorPontieri">
             <button class="ui teal  button"> Baixar Currículo</button>
+          </a>  
         </div>
         
         <div class="img-sb">
@@ -91,7 +93,7 @@
           </div>
           <h2 class="lab">Laboratório</h2>
           <div class="ui centered link cards" id="cards">
-            <div class="card">
+            <a href="https://github.com/HeitorPontieri/DocStrange" target ="_blank"class="card">
               <div class="image">
                 <img src="./img/print-drStrange.PNG">
               </div>
@@ -101,8 +103,8 @@
                   Projeto feito no curso de Desenvolvimento de Sistemas no SENAI Jandira.
                 </div>
               </div>
-            </div>
-            <div class="card">
+            </a>
+            <a href="https://github.com/HeitorPontieri/LehamScervino" target="_blank" class="card">  
               <div class="image">
                 <img src="./img/print-scervino.PNG">
               </div>
@@ -112,8 +114,8 @@
                   Projeto interdisciplinar entre as matérias de DS e Assistente Admnistrativo.
                 </div>
               </div>
-            </div>
-            <div class="card">
+            </a>
+            <a href="https://github.com/HeitorPontieri/Painel" target="_blank" class="card">
                 <div class="image">
                   <img src="./img/print-painel.PNG">
                 </div>
@@ -123,18 +125,25 @@
                     Projeto feito com o objetivo de simular o painel de controle do windows 10.
                   </div>
                 </div>
-              </div>
+              </a>
               
     </section>
 
-    <section class="content-contato" id="contato">
-        <h2 class="titulo">Contato</h2>
-
-        <div class="text">
+    <footer class="content-contato" id="contato">
+      <div class="ui inverted segment" id="background">
+        
+        <h4 class="ui horizontal inverted divider">
+          Contato
+        </h4>
+        <p>
+          <div class="text">
             <p class="text">Se interessou pelo meu trabalho? Entre em contato comigo em alguma dessas plataformas ou conheça outros projetos meus.</p>
         </div>
-        
-        <div class="buttom">
+        </p>
+        <div class="ui inverted divider"></div>
+        <p>
+          <div class="center">
+          <div class="buttom">
             <a href="mailto:heitorpontieri1@gmail.com" >
                 <button class="ui red mail button">
                     <i class="mail icon"></i>
@@ -142,7 +151,7 @@
                 </button>
             </a>
 
-            <a href="https://br.linkedin.com/in/heitorpontieri">
+            <a href="https://br.linkedin.com/in/HeitorPontieri">
                 <button class="ui linkedin button">
                     <i class="linkedin icon"></i>
                     LinkedIn
@@ -150,13 +159,15 @@
             </a>
 
             <a href="https://github.com/HeitorPontieri">
-                <button class="ui github button">
-                    <i class="github icon"></i>
-                    GitHub
-                </button>
+              <button class="ui github button">
+                  <i class="github icon"></i>
+                  GitHub
+              </button>
             </a>
-        </div>
-        
-    </section>   
+          </div>
+        </p>
+        </p>
+      </div>
+    </footer>
 </body>
 </html>

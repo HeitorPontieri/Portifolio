@@ -4,6 +4,7 @@
     justify-content: center;
     
     
+    
 }
 .ab-me{
     width: 50vw;
@@ -11,7 +12,9 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 20px
+    gap: 20px;
+    
+
 
 }
 button{
@@ -31,6 +34,7 @@ h1{
 }
 p{
     color: white;
+    
 }
 
 .img-sb{
@@ -39,6 +43,7 @@ p{
     justify-content: center;
     align-items: center;
     
+    
 }
 
 .infos{
@@ -46,5 +51,26 @@ p{
     width: 100vw;
     display: flex;
 
-    background-color: brown;
+   
+}
+@media(max-width:777px){
+    .img-sb{
+
+        display: none;
+        }
+}
+@media(max-width: 670px){
+    #img{
+        display: none;
+    }
+    #description{
+        width: 100vw;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
 }

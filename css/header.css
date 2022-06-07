@@ -20,6 +20,13 @@ header{
 .logo{
     padding-left: 30px;
     height: 50px;
+    display: flex;
+    gap: 10px;
+    font-size: 2rem;
+}
+
+.simb{
+    color: rgb(0, 181, 173);
 }
 
 .pnew{
@@ -42,4 +49,22 @@ header{
     border-bottom: 3px solid #00CBBF;
     border-radius: 5px;
     color: white;
+}
+
+@media(max-width: 850px){
+    .pnew{
+        display: none;
+    }
+    .pre{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        padding-left: 1px;
+    }
+}
+@media(max-width: 830px){
+    .img-sb{
+        display: none;
+    }
 }

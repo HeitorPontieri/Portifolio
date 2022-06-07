@@ -1,18 +1,12 @@
 .content-contato {
     padding: 50px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     transition: all 1s;
+    width: 100vw;
+    height: 30vh;
 }
 
-.content-contato:hover {
-    border: white solid 2px;
-    border-radius: 30px;
-    background-color: rgba(255, 255, 255, 0.295);
-    margin-left: 50px;
-    margin-right: 50px;
-    box-shadow: black 0px 5px 10px;
-    transition: all 1s;
-}
+
 
 .content-contato h2 {
     color: white;
@@ -21,24 +15,35 @@
     font-size: 3rem;
 }
 
-.content-contato p {
-    color: white;
-    width: 570px;
-    height: 100px;
-    font-size: 1.2rem;
-    font-weight: 100;
-    text-align: center;
+.center {
     display: flex;
     justify-content: center;
 }
 
-.buttom {
-    display: flex;
-    gap: 100px;
-    justify-content: center;
+#background {
+    background-color: transparent;
+    box-shadow: #000 0px 5px 8px;
 }
+
 
 .text {
     display: flex;
     justify-content: center;
+} 
+
+@media(max-width: 898px){
+    #contato{
+        padding-top: 15vh;
+    }
 }
+@media(max-width: 590px){
+    #contato{
+        padding-top: 50vh;
+    }
+}
+@media(max-width: 375px){
+    #contato{
+        padding-top: 90vh;
+    }
+}
+

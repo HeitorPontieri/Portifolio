@@ -5,7 +5,7 @@
 }
 
 .skills{
-    padding-top: 200px;
+    padding-top: 85px;
     font-size: 2rem;
    
     color: white;
@@ -30,17 +30,17 @@ i{
 .language{
     font-size: 1.5rem;
     color: white;
-    font-family: 'inika';
+    
 }
 
 .lab{
     font-size: 2rem;
-    
+   
     color: white;
 }
 
 #cards{
     width: 70vw;
     display: flex;
-    gap: 200px;
+    
 }
