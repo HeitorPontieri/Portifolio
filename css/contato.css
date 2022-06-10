@@ -1,12 +1,9 @@
 .content-contato {
     padding: 50px;
-    
     transition: all 1s;
-    width: 100vw;
-    height: 30vh;
+    width: 40vw;
+    height: 50vh;
 }
-
-
 
 .content-contato h2 {
     color: white;
